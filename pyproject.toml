@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-sandbox"
+version = "0.0.0"
+description = "sandbox for learning django"
+authors = ["Thanh Nguyen <thanh.nguyen@cavallo.com>"]
+license = "UNLICENSED"
+readme = "README.md"
+packages = [{include = "django_sandbox"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
